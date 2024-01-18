@@ -1,0 +1,21 @@
+{
+  "name": "computer-science-practice",
+  "module": "index.ts",
+  "scripts": {
+    "start": "bun run ./index.ts",
+    "cloud": "bun run ./index.ts cloud",
+    "dsa": "bun run ./index.ts dsa",
+    "dataStructureAlgorithm": "bun run ./index.ts dsa",
+    "fundamentals": "bun run ./index.ts fundamentals",
+    "problem": "bun run ./index.ts problems",
+    "problems": "bun run ./index.ts problems"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.4-canary.20231003T140149",
+    "prettier": "^3.0.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module"
+}
