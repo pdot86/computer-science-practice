@@ -1,5 +1,5 @@
 /**
- * Arrays: Left Rotation
+ * Arrays - Left Rotation
  * Difficulty: Easy
  * Max Score: 20
  * Score: 20

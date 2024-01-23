@@ -1,5 +1,5 @@
 /**
- * Two Strings
+ * Strings - Two Strings
  * Difficulty: Easy
  * Max Score: 25
  * Score: 25

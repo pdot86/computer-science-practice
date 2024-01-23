@@ -1,5 +1,5 @@
 /**
- * Print the Elements of a Linked List
+ * Linked Lists - Print the Elements of a Linked List
  * Difficulty: Easy
  * Max Score: 5
  * Score: 5

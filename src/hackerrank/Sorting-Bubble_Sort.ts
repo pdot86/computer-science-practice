@@ -1,5 +1,5 @@
 /**
- * Sorting: Bubble Sort
+ * Sorting - Bubble Sort
  * Difficulty: Easy
  * Max Score: 30
  * Score: 30

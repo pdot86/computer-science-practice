@@ -1,5 +1,5 @@
 /**
- * Sparse Arrays
+ * Arrays - Sparse Arrays
  * Difficulty: Medium
  * Max Score: 25
  * Score: 25

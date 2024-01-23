@@ -1,5 +1,5 @@
 /**
- * Queues: A Tale of Two Stacks
+ * Queues - A Tale of Two Stacks
  * Difficulty: Medium
  * Max Score: 30
  * Score: 30

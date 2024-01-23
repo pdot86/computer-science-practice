@@ -1,5 +1,5 @@
 /**
- * Array - DS
+ * Arrays - Arrays DS
  * Difficulty: Easy
  * Max Score: 10
  * Score: 10

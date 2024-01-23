@@ -1,5 +1,5 @@
 /**
- * Sherlock and Anagrams
+ * Strings - Sherlock and Anagrams
  * Difficulty: Medium
  * Max Score: 50
  * Score: 50

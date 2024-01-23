@@ -1,5 +1,5 @@
 /**
- * 2D Array - DS
+ * Arrays - 2D Array - DS
  * Difficulty: Easy
  * Max Score: 15
  * Score: 15

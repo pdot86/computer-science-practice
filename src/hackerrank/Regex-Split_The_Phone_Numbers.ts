@@ -1,8 +1,8 @@
 /**
- * Alien Username
+ * Regex - Split the Phone Numbers
  * Difficulty: Easy
- * Max Score: 10
- * Score: 10
+ * Max Score: 15
+ * Score: 15
  */
 
 // Ignore declarations of provided/setup objects
@@ -11,9 +11,9 @@ declare const inputLines: string[];
 
 function main() {
   let len = parseInt(inputLines.shift() || '0');
-  const rgx = /^[_.]{1}\d+[a-zA-Z]*_{0,1}$/;
+  const rgx = /^([0-9]{1,3})[-\s]([0-9]{1,3})[-\s]([0-9]{4,10})$/;
 
   while (len--) {
-    process.stdout.write((rgx.test(readLine()) ? 'VALID' : 'INVALID') + '\n');
+    process.stdout.write(readLine().replace(rgx, 'CountryCode=$1,LocalAreaCode=$2,Number=$3') + '\n');
   }
 }
