@@ -45,17 +45,6 @@ function insertionSort(arr: number[], left?: number, right?: number): number[] {
     arr[j + 1] = curr;
   }
 
-  // for (let i = left + 1; i < right; i++) {
-  //   let currValue = arr[i];
-  //   let subIndex = i - 1;
-
-  //   while (subIndex >= left && arr[subIndex] > currValue) {
-  //     arr[subIndex + 1] = arr[subIndex];
-  //     subIndex -= 1;
-  //   }
-  //   arr[subIndex + 1] = currValue;
-  // }
-
   return arr;
 }
 

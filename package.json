@@ -8,9 +8,12 @@
     "dataStructureAlgorithm": "bun run ./index.ts dsa",
     "fundamentals": "bun run ./index.ts fundamentals",
     "problem": "bun run ./index.ts problems",
-    "problems": "bun run ./index.ts problems"
+    "problems": "bun run ./index.ts problems",
+    "lockfiles": "bun i --yarn && npm i --package-lock-only",
+    "depscan": "npm audit"
   },
   "devDependencies": {
+    "@types/node": "^20.11.5",
     "bun-types": "^1.0.4-canary.20231003T140149",
     "prettier": "^3.0.3"
   },

@@ -40,6 +40,6 @@ ability to allocate the necessary resources to run and scale a program.
 | [Selection Sort](../dataStructuresAlgorithms/selectionSort.ts) | Ω(n^2)      | Θ(n^2)         | Ο(n^2)         | Ο(1)      |
 | Tree Sort                                                      | Ω(n log(n)) | Θ(n log(n))    | Ο(n^2)         | Ο(n)      |
 | [Shell Sort](../dataStructuresAlgorithms/shellSort.ts)         | Ω(n log(n)) | Θ(n(log(n))^2) | Ο(n(log(n))^2) | Ο(1)      |
-| Bucket Sort                                                    | Ω(n + k)    | Θ(n + k)       | Ο(n^2)         | Ο(n)      |
+| [Bucket Sort](../dataStructuresAlgorithms/bucketSort.ts)       | Ω(n + k)    | Θ(n + k)       | Ο(n^2)         | Ο(n)      |
 | [Radix Sort](../dataStructuresAlgorithms//radixSort.ts)        | Ω(nk)       | Θ(nk)          | Ο(nk)          | Ο(n + k)  |
 | [Counting Sort](../dataStructuresAlgorithms/countingSort.ts)   | Ω(n + k)    | Θ(n + k)       | Ο(n + k)       | Ο(k)      |

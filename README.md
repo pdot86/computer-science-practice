@@ -22,6 +22,33 @@ This project uses the [Bun](https://bun.sh/) runtime to execute the [TypeScript]
 bun install
 ```
 
+### To install dependencies + generate an npm package-lock.json:
+
+```bash
+bun install && npm i --package-lock-only
+```
+
+### To install dependencies + generate a yarn yarn.lock:
+
+```bash
+bun install --yarn
+```
+
+### To install dependencies + generate both npm and yarn lockfiles:
+```bash
+bun install && bun run lockfiles
+```
+
+### To run a dependency scan:
+```bash
+bun run depscan
+```
+
+### To update packages:
+```bash
+bun run update
+```
+
 ### To run:
 
 ```bash

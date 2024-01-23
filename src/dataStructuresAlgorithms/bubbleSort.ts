@@ -1,5 +1,5 @@
 /**
- * An sorting algorithm that loops over the entire array and swaps positions of items
+ * A sorting algorithm that loops over the entire array and swaps positions of items
  * over and over until the array is finally sorted.
  *
  * TIME COMPLEXITY: O(n^2)
@@ -18,14 +18,10 @@
  * @returns {number[]} The array of numbers sorted in increasing order
  */
 function bubbleSort(arr: number[]): number[] {
-  let sorted = false;
-
-  while (!sorted) {
-    for (let i = 0; i < arr.length - 1; i++) {
-      if (arr[i] > arr[i + 1]) {
-        let tmp = arr[i];
-        arr[i] = arr[i + 1];
-        arr[i + 1] = tmp;
+  for (let i = 0, len = arr.length; i < len; i++) {
+    for (let j = i; j > 0; j--) {
+      if (arr[j] - arr[j - 1] < 0) {
+        [arr[j - 1], arr[j]] = [arr[j], arr[j - 1]];
       }
     }
   }

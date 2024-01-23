@@ -1,8 +1,41 @@
+################################################################################
+# Runtime
+################################################################################
+
+# scripts to run before `bun run`-ing a file or script
+# preload = []
+
+# Reduce memory usage at the cost of performance
+smol = false
+
+# Accepted `logLevel` values: "debug" | "warn" | "error"
+logLevel = "debug"
+
+# Allow Bun to track bundle data?
+telemetry = false
+
+# Define/Replace global values with a constant value (parsed as JSON)
+[define]
+"process.env.author" = "'Phillip Salfity'"
+
+
+################################################################################
+# Test Runner
+################################################################################
+
 [test]
-
-coverageSkipTestFiles = true       # default false
-
+coverageSkipTestFiles = true      # default false
 coverageIgnoreSourcemaps = true   # default false
 
-# to set different thresholds for lines and functions
+# Set different thresholds for lines and functions
 coverageThreshold = { line = 0.9, function = 0.9 }
+
+
+################################################################################
+# Package Manager
+################################################################################
+[install]
+auto = "auto" # should bun auto install dependencies if run before installed?
+
+[install.lockfile]
+save = true # should bun save a lockfile?
