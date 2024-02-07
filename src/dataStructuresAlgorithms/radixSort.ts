@@ -27,10 +27,9 @@
  * @param arr {number[]} An unsorted array of numbers
  * @returns {number[]} The array of numbers sorted in increasing order
  */
-function currentSort(arr: number[]): number[] {
+function radixSort(arr: number[]): number[] {
   const max = Math.max(...arr);
-  const maxDigitCount =
-    max === 0 ? 1 : Math.floor(Math.log10(Math.abs(max))) + 1;
+  const maxDigitCount = max === 0 ? 1 : Math.floor(Math.log10(Math.abs(max))) + 1;
 
   /**
    * Extracts the digit at a specific position.
@@ -44,10 +43,7 @@ function currentSort(arr: number[]): number[] {
   }
 
   for (let i = 0; i < maxDigitCount; i++) {
-    const sortedPerDigit = Array.from(
-      { length: arr.length },
-      () => [] as number[]
-    );
+    const sortedPerDigit = Array.from({ length: arr.length }, () => [] as number[]);
 
     for (let j = 0; j < arr.length; j++) {
       sortedPerDigit[getDigit(arr[j], i)].push(arr[j]);
@@ -59,4 +55,4 @@ function currentSort(arr: number[]): number[] {
   return arr;
 }
 
-export default currentSort;
+export default radixSort;
