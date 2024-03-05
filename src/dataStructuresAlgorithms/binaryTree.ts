@@ -1,4 +1,4 @@
-class BinarySearchTreeNode {
+export class BinarySearchTreeNode {
   public value: any;
   public left: null | any = null;
   public right: null | any = null;
@@ -8,7 +8,7 @@ class BinarySearchTreeNode {
   }
 }
 
-class BinarySearchTree {
+export class BinarySearchTree {
   private root: null | any = null;
 
   get size(): number {
@@ -136,7 +136,7 @@ class BinarySearchTree {
 
     if (removeNode === this.root) {
       this.root = substitute;
-    } else {
+    } else if (parent) {
       if (removeNode.value < parent.value) {
         parent.left = substitute;
       } else {
@@ -156,9 +156,7 @@ class BinarySearchTree {
   }
 
   *values() {
-    function* traverse(
-      node: BinarySearchTreeNode
-    ): Generator<any | null, void, any | null> {
+    function* traverse(node: BinarySearchTreeNode): Generator<any | null, void, any | null> {
       if (node) {
         if (node.left !== null) {
           yield* traverse(node.left);
@@ -178,3 +176,5 @@ class BinarySearchTree {
     return this.values();
   }
 }
+
+export default BinarySearchTree;
