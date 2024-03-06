@@ -20,7 +20,7 @@ function isBalanced(s: string): string {
   // Create a stack to track things
   const stack = [];
 
-  // Loop over the input charecters and determine if it is valid
+  // Loop over the input characters and determine if it is valid
   for (let i = 0; i < s.length; i++) {
     const char = s.charAt(i);
 
