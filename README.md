@@ -12,6 +12,14 @@ This is a repo that conatains information, common data structures, algorithms, a
 - [Fundamentals](./src/fundamentals/)
 - [System Design](./src/systems-design/)
 
+## TO DO
+
+- [ ] Classic vs. Prototypical Inheritance
+- [ ] Object Oriented Design Patterns
+- [ ] JavaScript In-Depth
+- [ ] Event Loop
+
+
 ## Setup
 
 This project uses the [Bun](https://bun.sh/) runtime to execute the [TypeScript](https://www.typescriptlang.org/) files directly.
