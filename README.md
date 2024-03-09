@@ -8,6 +8,7 @@ This is a repo that conatains information, common data structures, algorithms, a
 - [Common Problems](./src/problems/)
 - [LeetCode Solutions](./src/leetcode/)
 - [Codility Solutions](./src/codility/)
+- [Meta Careers Puzzles](./src/meta-careers-puzzles/)
 - [Cloud Computing](./src/cloud/)
 - [Fundamentals](./src/fundamentals/)
 - [System Design](./src/systems-design/)
