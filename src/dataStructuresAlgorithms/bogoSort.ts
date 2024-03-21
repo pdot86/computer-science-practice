@@ -18,10 +18,7 @@
  * @param type {'random'|'deterministic'} The type of bogoSort to use
  * @returns {number[]} The array of numbers sorted in increasing order
  */
-function bogoSort(
-  arr: number[],
-  type: 'random' | 'deterministic' = 'random'
-): number[] {
+function bogoSort(arr: number[], type: 'random' | 'deterministic' = 'random'): number[] {
   if (type === 'random') {
     return randomBogoSort(arr);
   } else {
@@ -58,7 +55,7 @@ function randomBogoSort(arr: number[]): number[] {
 
 /**
  * The deterministic version of Bogosort, where you calculate all possible
- * permutations of the array to find the permutation that is properlu sorted.
+ * permutations of the array to find the permutation that is properly sorted.
  * @param arr {number[]} An unsorted array of numbers
  * @returns {number[]} The array of numbers sorted in increasing order
  */
